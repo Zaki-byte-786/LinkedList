@@ -161,6 +161,6 @@ public class doublyLinkedList {
 //        displayForward(removeKthNode(dll,6));
 //displayForward(reverseDLL(dll));
 //displayForward(insertAtKthPosition(dll,7,15));
-        
+
     }
 }
