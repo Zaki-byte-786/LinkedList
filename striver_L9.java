@@ -24,7 +24,7 @@ public class striver_L9 extends striver_L6{
         int [] array2 = {1,0,1,2,0,2,1,0};
         Node ll1 = arr2LL(array1);
         Node ll2 = arr2LL(array2);
-//        display(reverseLL2(ll2));
+        display(reverseLL2(ll1));
 
 
     }

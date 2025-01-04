@@ -11,7 +11,6 @@ class Node{
         }
     }
 }
-
 public class basicLinkedList {
    static void recursionDisplay(Node a){
         if (a == null)return;
@@ -134,18 +133,18 @@ public class basicLinkedList {
 
 //    Q --> reverse a ll
 
-//    static Node reverseLinkedList(Node head){
-//        Node previous = null;
-//        Node n = null;
-//        Node current = head;
-//        while (current != null){
-//            n = current.next;
-//            current.next = previous;
-//            previous = current;
-//            current = n;
-//        }
-//        return previous;
-//    }
+    static Node reverseLinkedList(Node head){
+        Node previous = null;
+        Node n = null;
+        Node current = head;
+        while (current != null){
+            n = current.next;
+            current.next = previous;
+            previous = current;
+            current = n;
+        }
+        return previous;
+    }
 
     static int sizeOfLL(Node head){
         int count = 0;
